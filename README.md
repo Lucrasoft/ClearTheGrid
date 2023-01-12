@@ -24,7 +24,7 @@ Although the first levels are doable, even by hand, the levels get trickier and 
 Besides the Best Score competition, you can also go for 
 - The Creative Solution 
      - Use your imagination and create the most stunning visual presentation of the game.
-- The Nerdiest Solution 
+- The Nerdiest Solution :nerd_face:
      - Do something nerdy or awesome with the idea of this competition. For example: Use a obscure development language. Or go nuts with Lego, Rasperry Pi's, .. 
 
 ## Team Up!
