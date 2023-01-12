@@ -3,6 +3,8 @@
 You are given a grid, filled with numbers. 
 You can move a number horizontally or vertically by exactly as many cells as the value of the number. The number has to be pushed on another non-zero number. The moved number will then be added to the other number or subtracted, at your choice. In case of substration, the absolute value will be taken. The goal is to *Clear-The-Grid* and not have any numbers remaining. 
 
+A webversion of the game can be found [here](https://eulerschezahl.github.io/NumberShifting.html)
+
 ## Example
 
 We will use the first level as an example.
@@ -30,7 +32,7 @@ The top left corner has the coordinate (0,0). The X coordinate increases to the 
 ### Input file
 The level files consist of :
 - On the first line the `width` and `height`
-- The other *`height`* number of lines contain the `width` number of cell values of the grid.
+- Followed by *`height`* number of lines containing `width` numbers of cell values of the grid.
 
 
 For example the content of the first level defines a grid of 8 width and 5 height.
@@ -61,11 +63,13 @@ A (free!) solution for the first level could be:
 0 2 R -
 ```
 
-> The first line reads as: take the cell at [0,1] (which is the left 7 in the grid) and move it's value to the right. Substract it from the other 7. This clears out both the 7's.
+> The first line reads as: take the cell at [0,1] (which is the left 7 in the grid) and move it's value to the right. Substract it from the other 7. This clears out both the 7's. Etc.
 
-### Check 
+### Check your solution
 
 In the source of this repo you find a `Checker` tool to verify if your generated solution file is correct. 
 
-
+```
+checker.exe 12.txt 12.sol
+```
 
