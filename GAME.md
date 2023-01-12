@@ -7,16 +7,20 @@ You can move a number horizontally or vertically by exactly as many cells as the
 
 We will use the first level as an example.
 In this level the grid is 8x5 and contains: 
-![board](Images\board1.png)
+
+![board](Images/board1.png)
 
 A first action to clear the grid could be to move the left 7 on top of the right 7 and substract it. This will leave us with the board: 
-![board](Images\board2.png)
+
+![board](Images/board2.png)
 
 To get rid of the 3,1 and 2. One could move the 1 on top of the 3 and substract it. Resulting in :
-![board](Images\board3.png)
+
+![board](Images/board3.png)
 
 To clear the grid, we move one of the 2's on top of the other. The grid is clear! 
-![board](Images\board4.png)
+
+![board](Images/board4.png)
 
 
 ## Details
