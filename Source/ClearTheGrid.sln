@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checker", "Checker\Checker.csproj", "{0338D18B-299E-4B21-BDFB-0893EEFC9CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator", "Generator\Generator.csproj", "{A2DC362B-A795-4969-B2DB-34349F3F4DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{ADE484CD-C350-42FD-BFC2-88E749C72866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0338D18B-299E-4B21-BDFB-0893EEFC9CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0338D18B-299E-4B21-BDFB-0893EEFC9CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0338D18B-299E-4B21-BDFB-0893EEFC9CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0338D18B-299E-4B21-BDFB-0893EEFC9CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DC362B-A795-4969-B2DB-34349F3F4DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DC362B-A795-4969-B2DB-34349F3F4DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DC362B-A795-4969-B2DB-34349F3F4DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DC362B-A795-4969-B2DB-34349F3F4DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE484CD-C350-42FD-BFC2-88E749C72866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE484CD-C350-42FD-BFC2-88E749C72866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE484CD-C350-42FD-BFC2-88E749C72866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE484CD-C350-42FD-BFC2-88E749C72866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {743AE954-2AB7-420D-BCCC-4D8762387FED}
+	EndGlobalSection
+EndGlobal
