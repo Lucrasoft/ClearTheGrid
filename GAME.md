@@ -5,6 +5,20 @@ You can move a number horizontally or vertically by exactly as many cells as the
 
 A webversion of the game can be found [here](https://eulerschezahl.github.io/NumberShifting.html)
 
+
+### Extra clarification of the rules:
+
+Assume you want to move cell A to cell B , then 
+- Cell A **must** have a value, you **cannot** start with an empty cell.
+- Cell B **must** have a value, you **cannot** land on an empty cell.
+- The distance between A and B **must** be the value of cell A, you **cannot** pick a shorter or longer distance.
+
+After your move:
+- Cell A is EMPTY
+- Cell B value is either the sum (B+A) or the substration (B-A), this is your choice. 
+   - In case of a negative value due to the substration, the absolute (positive) value will be Cell B's new value! 
+
+
 ## Example
 
 We will use the first level as an example.
