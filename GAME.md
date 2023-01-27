@@ -87,3 +87,9 @@ In the source of this repo you find a `Checker` tool to verify if your generated
 checker.exe 12.txt 12.sol
 ```
 
+### Complex
+
+It can become complex quite quickly 😆
+![board](Images/Moves.png)
+
+
