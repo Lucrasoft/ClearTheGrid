@@ -115,7 +115,7 @@ namespace StarterKit
         static int GetMapScore(Map map)
         {
             int result = 0;
-            //we count the sum of the values left on the map..
+            //we count the number of cells left on the map..
             for (int x = 0; x < map.w; x++)
             {
                 for (int y = 0; y < map.h; y++)
