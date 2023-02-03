@@ -15,7 +15,7 @@ namespace Shared
         L = 3
     }
 
-    static class DirectionMethods
+    public static class DirectionMethods
     {
         public static (int xstep,int ystep) AsCoords(this Direction dir)
         {

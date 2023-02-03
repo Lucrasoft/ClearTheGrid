@@ -47,6 +47,11 @@ namespace Shared
             return new Move(x, y, ds, sign == "+");
 
         }
+
+        public Move Clone()
+        {
+            return new Move(this.x, this.y, this.dir, this.add);
+        }
     }
 
   
